@@ -13,7 +13,12 @@
   
   %body
     %header
-
+    
+    %nav
+      .nav-wraper
+      .brand-logo
+        %img(src="img/bgo_logo_128.png")
+    
     %div(class="section amber accent-2")
       
       .container
@@ -21,11 +26,12 @@
           %div(class="col s6")
             %img(src="img/iphone.png")
           %div(class="col s6")
-            %h4 The Rickshaw experience is going to change for(better)ever!
+            %h2 The Rickshaw experience is going to change forever
             %form(class="padding-top")
               .input-field
                 %input(id="email" type="email" class="validate")
                 %label(for="email" data-error="wrong" data-success="right")Email
+            .flow-text Let me know when you launch
 
     .parallax-container
       %h1( class="center-align" ) BGO
